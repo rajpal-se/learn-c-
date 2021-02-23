@@ -23,12 +23,12 @@ class Solution{
 int main(){
     int t;
     cin >> t;
-    while (t--){
+    while(t--){
         int N;
         cin >> N;
         Solution ob;
         int ans  = ob.trailingZeroes(N);
-        cout<<ans<<endl;
+        cout << ans << endl;
     }
     return 0;
 }
