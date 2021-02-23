@@ -24,7 +24,7 @@ int main() {
 }
 
 int MissingNumber(vector<int>& array, int n) {
-    // Your code goes here
+    
     int size = n+1, nums[size] = {0};
     n--;
     
